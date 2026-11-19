@@ -221,3 +221,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Heavy BIM & GIS binaries (keep repo lightweight and under 100 MB)
+*.rvt
+*.rfa
+*.rte
+*.blend
+*.blend1
+*.gpkg
+*.tif
+*.tiff
+*.laz
+*.las
