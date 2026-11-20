@@ -233,3 +233,38 @@ __marimo__/
 *.tiff
 *.laz
 *.las
+
+# GeoBIM: IFC, CityGML, 3D tiles & Docker data
+*.ifc
+*.ifczip
+*.gml
+*.cityjson
+*.glb
+*.gltf
+*.3dtiles
+*.bak
+*.backup
+
+# Allow explicitly whitelisted small sample/benchmark models if needed
+!05_sample_data/samples/*.ifc
+!05_sample_data/samples/*.gml
+
+# Generated validation reports & temporary pipeline outputs
+*_report.html
+*_audit.json
+*_converted.gml
+experiments/**/outputs/*
+!experiments/**/outputs/.gitkeep
+
+# Local Docker database volumes (if placed inside repo)
+03_database_docker/pgdata/
+03_database_docker/citydb_data/
+
+# Remaining GIS vector & QGIS backup files
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.qgd
+*.qgz~
