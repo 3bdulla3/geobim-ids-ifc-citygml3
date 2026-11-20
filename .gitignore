@@ -2,6 +2,10 @@
 __pycache__/
 *.py[codz]
 *$py.class
+.venv/
+venv/
+env/
+.conda/
 
 # C extensions
 *.so
@@ -244,6 +248,7 @@ __marimo__/
 *.3dtiles
 *.bak
 *.backup
+*.blend2
 
 # Allow explicitly whitelisted small sample/benchmark models if needed
 !05_sample_data/samples/*.ifc
