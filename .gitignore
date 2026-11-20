@@ -273,3 +273,6 @@ experiments/**/outputs/*
 *.cpg
 *.qgd
 *.qgz~
+
+# Ignore local VS Code editor settings (remove this rule if you want to track .vscode/ in Git)
+.vscode/
